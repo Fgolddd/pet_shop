@@ -1,0 +1,21 @@
+1、pip install python-alipay-sdk  
+2、配置公钥私钥
+3、 基本信息
+    APPID
+    9021000122686657
+    应用名称
+    sandbox应用:2088721004048916
+    绑定的商家账号（PID）
+    2088721004048916
+
+4、网关地址：https://openapi-sandbox.dl.alipaydev.com/gateway.do
+
+5、 商户账号pnyvix7351@sandbox.com
+    登录密码111111
+    商户PID2088721004048916
+
+6、 买家账号tbomne5949@sandbox.com
+    登录密码111111
+    支付密码111111
+    用户UID2088722004048926
+

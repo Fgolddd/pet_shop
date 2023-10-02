@@ -1,0 +1,200 @@
+{
+	// 路由页面的配置
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent", //透明渐变导航栏 App-nvue 2.4.4+ 支持
+						"searchInput": {
+							"backgroundColor": "rgba(239, 239, 239, 0.7)",
+							"borderRadius": "16px",
+							"placeholder": "查找商品 如：狗粮",
+							"disabled": false,
+							"placeholderColor": "#606266"
+						}
+
+					}
+				}
+			}
+		}, {
+			"path": "pages/cart/cart",
+			"style": {
+				"navigationBarTitleText": "购物车"
+			}
+		}, {
+			"path": "pages/goods/group",
+			"style": {
+				"navigationBarTitleText": "商品分类"
+			}
+		}, {
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "用户中心",
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+		}, {
+			"path": "pages/goods/detail",
+			"style": {
+				"navigationBarTitleText": "商品详情",
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+		},{
+			"path": "pages/user/login",
+			"style": {
+				"navigationBarTitleText": "用户登录",
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/user/register",
+			"style": {
+				"navigationBarTitleText": "用户注册",
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/common/set",
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		},
+		{
+			"path": "pages/update/email",
+			"style": {
+				"navigationBarTitleText": "修改邮箱"
+			}
+		},
+		{
+			"path": "pages/update/mobile",
+			"style": {
+				"navigationBarTitleText": "绑定手机"
+			}
+		},
+		{
+			"path": "pages/update/name",
+			"style": {
+				"navigationBarTitleText": "修改昵称"
+			}
+		},
+		{
+			"path": "pages/update/password",
+			"style": {
+				"navigationBarTitleText": "修改密码"
+			}
+		},
+		{
+			"path": "pages/goods/collect",
+			"style": {
+				"navigationBarTitleText": "我的收藏"
+			}
+		},
+		{
+			"path": "pages/user/address",
+			"style": {
+				"navigationBarTitleText": "收货地址"
+			}
+		},
+		{
+			"path": "pages/user/editaddr",
+			"style": {
+				"navigationBarTitleText": "编辑地址"
+			}
+		},
+		{
+			"path": "pages/user/createaddr",
+			"style": {
+				"navigationBarTitleText": "添加地址"
+			}
+		},
+		{
+			"path": "pages/order/order",
+			"style": {
+				"navigationBarTitleText": "订单中心"
+			}
+		},
+		{
+			"path": "pages/order/submit",
+			"style": {
+				"navigationBarTitleText": "订单提交"
+			}
+		},
+		{
+			"path": "pages/order/pay",
+			"style": {
+				"navigationBarTitleText": "订单支付"
+			}
+		},
+		{
+			"path": "pages/order/selectaddr",
+			"style": {
+				"navigationBarTitleText": "选择地址"
+			}
+		},
+		{
+			"path": "pages/order/paysuccess",
+			"style": {
+				"navigationBarTitleText": "支付结果"
+			}
+		}
+	],
+	// 全局样式的配置
+	"globalStyle": {
+		// 顶部导航栏的文字颜色
+		"navigationBarTextStyle": "white",
+		// 顶部导航栏的文字标题
+		"navigationBarTitleText": "宠物商城",
+		// 顶部导航栏的背景颜色
+		"navigationBarBackgroundColor": "#00aa7f",
+		// 页面背景颜色
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+	// 底部菜单的配置
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#089088",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/tabbar_icon/icon_g/shouye1.png",
+			"selectedIconPath": "static/tabbar_icon/icon_g/shouye.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/goods/group",
+			"iconPath": "static/tabbar_icon/icon_g/fenlei1.png",
+			"selectedIconPath": "static/tabbar_icon/icon_g/fenlei.png",
+			"text": "分类"
+		}, {
+			"pagePath": "pages/cart/cart",
+			"iconPath": "static/tabbar_icon/icon_g/gouwucheman1.png",
+			"selectedIconPath": "static/tabbar_icon/icon_g/gouwucheman.png",
+			"text": "购物车"
+		}, {
+			"pagePath": "pages/user/user",
+			"iconPath": "static/tabbar_icon/icon_g/wode1.png",
+			"selectedIconPath": "static/tabbar_icon/icon_g/wode.png",
+			"text": "我的"
+		}]
+	}
+}
